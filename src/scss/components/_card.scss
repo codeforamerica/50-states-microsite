@@ -1,0 +1,46 @@
+// CARD
+
+.card {
+  background-color: $light-gray;
+  border: solid $gray 1px;
+  height: 100%;
+  padding: $space-component-md;
+  position: relative;
+
+  &::after {
+    content: "";
+  }
+}
+
+.card__title {
+  margin-bottom: $space-component-xs;
+}
+
+.card__subtitle {
+  font-style: italic;
+  margin-bottom: $space-component-sm;
+}
+
+.card__number {
+  background-color: $white;
+  border: solid $yellow 2px;
+  border-radius: 50%;
+  font-weight: 700;
+  height: 34px;
+  left: 50%;
+  line-height: 30px;
+  margin-left: -17px;
+  position: absolute;
+  text-align: center;
+  top: -17px;
+  width: 34px;
+}
+
+.card--number-card .card__body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+// CTA
+
+.cta {
+  background-color: $yellow;
+  margin-bottom: $space-layout-lg;
+  padding: $space-layout-lg 0;
+  text-align: center;
+}
+
+.cta--ibi {
+  background-color: $light-blue;
+  margin-bottom: $space-layout-sm;
+}
+
+.funders {
+  font-style: italic;
+  margin-bottom: $space-layout-md;
+}
+
+.cta p {
+  font-size: 24px;
+  margin-bottom: $space-layout-md;
+}

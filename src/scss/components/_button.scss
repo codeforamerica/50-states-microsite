@@ -1,0 +1,35 @@
+// BUTTON
+
+.button,
+a.button {
+  background-color: $blue;
+  border: solid $blue 1px;
+  border-radius: 2px;
+  color: $white;
+  display: inline-block;
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: 1.5rem;
+  outline: none;
+  padding: $space-component-xs $space-component-sm;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $darker-blue;
+    border: solid $darker-blue 1px;
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: $darker-blue;
+    border: solid $darker-blue 1px;
+    text-decoration: none;
+  }
+
+  &:focus {
+    border: solid $blue 1px;
+    box-shadow: 0 0 0 1px $blue;
+    text-decoration: none;
+  }
+}

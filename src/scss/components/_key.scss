@@ -1,0 +1,40 @@
+// KEY
+
+.key {
+  background-color: $white;
+  border: solid $gray 1px;
+  font-size: 16px;
+  padding: $space-component-xs;
+}
+
+.key__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.key__symbol {
+  padding-right: $space-component-xs;
+}
+
+#combined-viz-key-programs {
+  @include media($tablet-up) {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+
+    &::after {
+      background-color: $gray;
+      content: "";
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 1px;
+    }
+  }
+
+  border-bottom: solid $gray 1px;
+  margin-bottom: $space-component-sm;
+  padding-bottom: $space-component-sm;
+}

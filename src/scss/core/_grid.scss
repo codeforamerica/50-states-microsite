@@ -1,0 +1,31 @@
+@each $breakpoint in $breakpoints {
+  $name: nth($breakpoint, 1);
+
+  // Stop Flexbox Grid alignment from affecting text-alignment
+  .start-xs,
+  .center-xs,
+  .end-xs,
+  .start-#{$name},
+  .center-#{$name},
+  .end-#{$name} {
+    text-align: inherit;
+  }
+
+  // Alignment class for aligning row items at the top of a row
+  .top-xs,
+  .top-#{$name} {
+    align-items: flex-start;
+  }
+
+  // Alignment class for aligning row items in the middle of a row vertically
+  .middle-xs,
+  .middle-#{$name} {
+    align-items: center;
+  }
+
+  // Alignment class for aligning row items at the bottom of a row
+  .bottom-xs,
+  .bottom-#{$name} {
+    align-items: flex-end;
+  }
+}

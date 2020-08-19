@@ -1,0 +1,14 @@
+// CARD GRID
+
+.card-grid {
+  @include media($tablet-up) {
+    display: flex;
+  }
+
+  margin-bottom: $space-layout-md;
+  margin-top: $space-layout-md;
+}
+
+.card-grid__item {
+  padding-bottom: 2rem;
+}

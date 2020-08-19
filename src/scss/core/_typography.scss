@@ -1,0 +1,144 @@
+// Typography
+
+p {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin: 0;
+
+  & + p {
+    margin-top: $base-line-height;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $base-line-height;
+  margin-top: $base-line-height * 3;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+h1, 
+.h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+h2,
+.h2 {
+  border-bottom: solid $gray 1px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: $space-component-xs;
+}
+
+h3,
+.h3 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+h6,
+.h6 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.headline {
+  font-size: 42px;
+  margin-bottom: $space-layout-sm;
+  margin-top: $space-layout-xs;
+}
+
+.subhead {
+  font-size: 38px;
+  line-height: 1.2em;
+}
+
+.pubdate {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.blockquote {
+  color: $black;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: $space-layout-md;
+  margin-top: $space-layout-md;
+  padding-bottom: $space-component-md;
+  padding-top: $space-component-md;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    background-color: $yellow;
+    content: '';
+    height: 2px;
+    left: calc(50% - 100px);
+    position: absolute;
+    top: 0;
+    width: 200px;
+  }
+
+  &::after {
+    background-color: $blue;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: calc(50% - 100px);
+    position: absolute;
+    width: 200px;
+  }
+}
+
+.lead-in {
+  color: $dark-gray;
+  font-size: 24px;
+}
+
+.highlight {
+  box-shadow: inset 0 -0.6em $yellow;
+}

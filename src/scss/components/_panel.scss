@@ -1,0 +1,33 @@
+// PANEL
+
+.panel {
+  background-color: $light-gray;
+  border: solid $gray 1px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $space-layout-md;
+  margin-top: $space-layout-md;
+}
+
+.panel__header {
+  padding: $space-component-sm;
+  padding-bottom: 0;
+}
+
+.panel__title {
+  font-size: 26px;
+}
+
+.panel__controls {
+  margin-bottom: $space-layout-sm;
+}
+
+.panel__control-set {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.panel__key {
+  margin-bottom: $space-layout-sm;
+}

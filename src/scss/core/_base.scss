@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, 
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $black;
+  font-family: $base-font-family;
+  font-size: 16px;
+  font-smooth: always;
+  font-weight: 400;
+  
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+// Layout
+
+.page-content {
+  padding: 0 $site-margins;
+}
+
+.page-header {
+  padding-bottom: $space-layout-md;
+  padding-top: $space-layout-md;
+}
+
+.section {
+  padding-bottom: $space-layout-md;
+  padding-top: $space-layout-md;
+}
+
+
+// Breakpoints
+
+$mobile-up: 481px;
+$tablet-up: 768px;
+$midscreen-up: 960px;
+$widescreen-up: 1201px;
+
+@mixin media($bp) {
+  @media screen and (min-width: #{$bp}) {
+    @content;
+  }
+}
+
+
+// Spacing
+
+$space-layout-base: 4px;
+$space-layout-xxs: $space-layout-base;
+$space-layout-xs: $space-layout-xxs * 2; // 8px
+$space-layout-sm: $space-layout-xs * 2;  // 16px
+$space-layout-md: $space-layout-sm * 2;  // 32px
+$space-layout-lg: $space-layout-md * 2;  // 64px
+$space-layout-xl: $space-layout-lg * 2;  // 128px
+$space-layout-xxl: $space-layout-xl * 2; // 256px
+
+$space-component-base: 4px;
+$space-component-xxs: $space-component-base;
+$space-component-xs: $space-component-xxs * 2;
+$space-component-sm: $space-component-xs * 2;
+$space-component-md: $space-component-sm * 2;
+$space-component-lg: $space-component-md * 2;
+$space-component-xl: $space-component-lg * 2;
+$space-component-xxl: $space-component-xl * 2;
+
+
+// Helpers
+
+.mobile-only {
+  @include media($tablet-up) {
+    display: none;
+  }
+
+  display: block;
+}
+
+.desktop-only {
+  @include media($tablet-up) {
+    display: block;
+  }
+
+  display: none;
+}

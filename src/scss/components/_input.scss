@@ -1,0 +1,62 @@
+// INPUT
+
+// Block form elements
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="file"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+textarea {
+  border: 1px solid $dark-gray;
+  box-sizing: border-box;
+  color: $black; // standardize on firefox
+  display: block;
+  font-size: $base-font-size;
+  height: 2em;
+  margin: 0.5em 0 1.5em;
+  outline: none;
+  padding: 0 0.4em;
+  width: 100%;
+}
+
+// Inline form elements
+input[type="checkbox"],
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+
+}
+
+input:focus {
+  border: 1px solid $blue;
+  box-shadow: 0 0 0 1px $blue;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+
+.checkbox {
+  display: inline-block;
+  margin-right: $space-component-xxs;
+  vertical-align: baseline;
+}
+
+.input-label {
+  display: inline-block;
+  margin-right: $space-component-sm;
+  vertical-align: baseline;
+}

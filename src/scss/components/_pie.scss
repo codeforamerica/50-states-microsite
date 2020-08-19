@@ -1,0 +1,31 @@
+// Pie charts
+
+.pies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+.pies__item {
+  height: 180px;
+  margin: 15px;
+  width: 180px;
+}
+
+.pies__item--available {
+  fill: $darker-blue;
+}
+
+.pies__item--unavailable {
+  fill: $gray;
+}
+
+.pies__item-name {
+  font-family: $base-font-family;
+  font-size: 19px;
+}
+
+.pies__item-value {
+  font-family: $base-font-family;
+}

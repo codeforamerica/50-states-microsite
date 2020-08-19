@@ -1,0 +1,42 @@
+// BRANDBAR
+
+.brandbar {
+  background: $darkest-gray;
+  color: $white;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: $space-component-sm 0;
+
+  a:link,
+  a:visited,
+  a:hover {
+    color: inherit;
+  }
+}
+
+.brandbar__logo {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+
+  & img {
+    max-height: 34px;
+  }
+}
+
+.brandbar__message {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  height: 100%;
+  justify-content: center;
+
+  p {
+    font-size: 1em;
+    margin: 0;
+  }
+}

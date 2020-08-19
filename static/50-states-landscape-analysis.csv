@@ -1,0 +1,79 @@
+State,Application / Portal Name,Identity Proofing? Yes/No/Optional,Apply online for SNAP?,Apply online for Medicaid?,Apply online for TANF?,Apply online for WIC?,Apply online for LiHEAP?,Is the application mobile responsive?,Native app available?,How many screens to complete an application workflow,How long does it take to complete an application with standard family on desktop?,Does the application require a user name/password before starting the application?,Number of screenshots
+Alabama,MyAlabama,Yes,No,Yes,No,No,No,No,No,26,30,Yes,14
+Alabama,MyDHR,No,Yes,No,No,No,No,Yes,No,30,25,Yes,41
+Alaska,ARIES,No,No,Yes,No,No,No,No,No,40,35,Yes,61
+Arizona,Health-e-Arizona,No,Yes,Yes,Yes,No,No,No,No,53,45,Yes,67
+Arkansas,ACCESS Arkansas,No,Yes,No,Yes,No,No,No,No,39,35,Yes,58
+Arkansas,ACCESS Arkansas Medicaid,Yes,No,Yes,No,No,No,No,No,36,30,Yes,10
+California,CalWin,No,Yes,Yes,Yes,No,No,Yes,Yes,63,30,Yes,62
+California,C4Yourself,No,Yes,Yes,Yes,No,No,No,No,52,45,Yes,52
+California,YourBenefitsNow,No,Yes,Yes,Yes,No,No,No,Yes,56,60,Yes,55
+Colorado,PEAK,No,Yes,Yes,Yes,No,Yes,Yes (separate mobile website). Per Sarah internal usability research noted some functional issues. ,"Yes - MyCOBenefits. 2.5 stars, 5K downloads",42,35,No,77
+Colorado,Colorado WIC,No,No,No,No,Yes,No,Yes,No,1,5,No,1
+Connecticut,Access Health CT,Yes,No,Yes,No,No,No,,,,,,21
+Connecticut,ConneCT,No,Yes,No,Yes,No,No,No,No,66,65,Yes,87
+Delaware,Delaware ASSIST,No,Yes,Yes,Yes,No,Yes,No,No,39,90,Yes,39
+Florida,Access Florida,No,Yes,Yes,Yes,No,Yes,No,No,53,120,Yes,52
+Georgia,Georgia Gateway,No,Yes,Yes,Yes,No,No,Yes (separate mobile website),No,45,60,Yes,44
+Georgia,Georgia WIC,No,No,No,No,Yes,No,No,No,1,5,No,1
+Hawaii,Med-Quest,Yes,No,Yes,No,No,No,No,No,,,??,8
+Idaho,idalink ,Yes,No,Yes,No,No,No,No,No,28,35,Yes,1
+Illinois,ABE,No,Yes,Yes,Yes,No,No,No,No,41,40,Yes,67
+Indiana,FSSA Benefits,No,Yes,Yes,Yes,No,No,No,No,67,60,No,69
+Iowa,OASIS,No,Yes,No,Yes,No,No,No,No,34,20,No,30
+Iowa,DHS Services Portal,No,No,Yes,No,No,No,No,No,52,30,Yes,41
+Kansas,Kansas DCF,No,Yes,No,Yes,No,Yes,No,No,95,60,Yes,55
+Kansas,Kansas DCF Medical,No,No,Yes,No,No,No,No,No,95,60,Yes,38
+Kentucky,Benefind,Yes,Yes,Yes,Yes,No,No,Yes,No,44,50,Yes,91
+Louisiana,LA CAFÉ,No,Yes,No,Yes,No,No,No,No,40,35,Yes,45
+Louisiana,LA Medicaid Portal,No,No,Yes,No,No,No,Yes,No,29,35,Yes,38
+Maine,My Maine Connection,No,Yes,Yes,Yes,No,No,Yes,No,60,45,Yes,92
+Maryland,myDHR,No,Yes,Yes,Yes,No,Yes,Yes,No,37,35,Yes,61
+Maryland,Maryland Health Connection,No,No,Yes,No,No,No,No,Yes,52,35,Yes,66
+Massachusetts,DTA Connect,No,Yes,No,No,No,No,Yes,"Yes - not valid for application, but works as case management tool (?)",20,20,No,38
+Massachusetts,Massachusetts Health Connector,Yes,No,Yes,No,No,No,Yes,No,42,35,Yes,98
+Massachusetts,WIC Mass.gov,No,No,No,No,Yes,No,Yes,No,1,5,No,4
+Michigan,MI Bridges,Optional,Yes,Yes,Yes,No,Yes,Yes,No,25,20,Yes,30
+Minnesota,ApplyMN ,No,Yes,No,Yes,No,No,No,No,46,60,Yes,45
+Minnesota,MNSure,Yes,No,Yes,No,No,No,No,No,35,50,Yes,48
+Mississippi,Access,No,Yes,Yes,Yes,No,Yes,Yes,No,24,30,No,36
+Missouri,MyDSS Health,No,No,Yes,No,No,No,Yes,No,38,20,Yes,37
+Missouri,MyDSS,No,Yes,No,Yes,No,No,Yes,No,59,40,Yes,57
+Montana,Montana DPHHS,No,Yes,Yes,Yes,No,No,Yes,No,46,30,Yes,45
+Nebraska,Access Nebraska,No,Yes,Yes,Yes,No,Yes,No,No,41,40,Yes,40
+Nevada,Access Nevada,No,Yes,Yes,Yes,No,No,Yes,No,36,25,Yes,34
+New Hampshire,NHEasy,No,Yes,Yes,Yes,No,No,Yes,No,54,30,Yes,54
+New Jersey,NJOneApp,No,Yes,No,Yes,No,No,No,No,36,45,Yes,71
+New Jersey,NJFamilyCare,No,No,Yes,No,No,No,No,No,20,15,No,33
+New Mexico,YesNM,No,Yes,Yes,Yes,No,Yes,Yes,No,54,45,Yes,67
+New York,New York MyBenefits,No,Yes,Yes,No,No,Yes,Yes,No,28,30,Yes,28
+New York City,AccessNYC,No,Yes,No,No,No,No,Yes,Yes - NYC Access HRA,64,30,Yes
+North Carolina,ePASS,No,Yes,Yes,No,No,No,No,No,48,15,Yes,46
+North Dakota,ND Gov,No,Yes,Yes,Yes,No,No,No,No,50,45,No,59
+Ohio,Ohio Benefits,No,Yes,Yes,Yes,No,Yes,No,No,52,30,Yes,51
+Oklahoma,OK DHS Live!,No,Yes,Yes,Yes,No,Yes,Yes,No,47,30,Yes,42
+Oregon,Oregon SNAP,No,Yes,No,Yes,No,No,Yes,No,57,30,Yes,45
+Oregon,Oregon ONE,Yes,No,Yes,No,No,No,Yes,No,48,50,Yes,85
+Pennsylvania,Compass,No,Yes,Yes,Yes,No,Yes,No,Yes - myCompass PA,37,20,Yes,31
+Pennsylvania,PA WIC,No,No,No,No,Yes,No,Yes,No,1,5,No,3
+Rhode Island,HealthSource RI,No,Yes,Yes,Yes,No,Yes,Yes,No,59,60,Yes,59
+South Carolina,SCMAPP,No,Yes,No,Yes,No,No,No,No,44,30,No,42
+South Carolina,Healthy Connections,No,No,Yes,No,No,No,No,No,30,30,Yes,43
+South Dakota,DSS,No,Yes,Yes,No,No,No,No,No,30,15,Yes,30
+Tennessee,TennCare Connect,No,No,Yes,No,No,No,No,"Yes - TennCare Connect. Review coverage, upload docs, receive letters, report changes. ",33,30,Yes,67
+Tennessee,TN DHS,No,Yes,No,Yes,No,No,Yes,No,34,20,Yes,21
+Texas,Your Texas Benefits,No,Yes,Yes,Yes,No,No,Yes,Yes - My Texas Benefits,73,60,Yes,72
+Texas,WIC,No,No,No,No,Yes,No,Yes,No,1,5,No,5
+Utah,myCase,No,Yes,Yes,Yes,No,No,Yes,No,112,60,No,112
+Vermont,My Benefits Vermont,No,Yes,No,Yes,No,Yes,No,No,55,40,Yes,59
+Vermont,VT Health Connect,Yes,No,Yes,No,No,No,No,No,42,25,Yes,47
+Virginia,My VA WIC,No,No,No,No,Yes,No,No,No,11,15,Yes,15
+Virginia,CommonHelp,No,Yes,Yes,Yes,No,Yes,No,No,59,60,Yes,28
+Washington,Healthplanfinder,Yes,No,Yes,No,No,No,Yes,Yes (WAPlanfinder),14,20,No,48
+Washington,Washington Connection,No,Yes,No,Yes,No,No,No,No,51,45,No,77
+West Virginia,WIC Household,No,No,No,No,Yes,No,No,No,15,15,Yes,20
+West Virginia,inROADS,No,Yes,Yes,No,No,Yes,No,No,51,50,Yes,85
+Wisconsin,ACCESS,No,Yes,Yes,No,No,No,No,"Yes (MyAccess Wisconsin) - 2.5 star review, lots of complaints. Only for post-application. ",53,60,Yes,100
+Wyoming,WES,No,No,Yes,No,No,No,Yes,No,28,40,Yes,52
+Wyoming,LIEAP Web Application,No,No,No,No,No,Yes,No,No,21,25,No,32
+GetCalFresh,GetCalFresh,,Yes,No,No,No,No,Yes,No,39,10,No

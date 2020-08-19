@@ -1,0 +1,51 @@
+// VARIABLES
+
+// Colors
+
+$black: #000000;
+$white: #ffffff;
+$yellow: #fbe343;
+$blue: #399ed2;
+$light-blue: #c1d6e4;
+$darker-blue: #0d77ac;
+$gray: #d8d8d8;
+$light-gray: #f5f5f6;
+$dark-gray: #7c7c7c;
+$darkest-gray: #2b2b2b;
+$red: #d33838;
+$green: #00a175;
+
+
+// Layout / Grid
+
+$site-margins: 20px;
+$breakpoints: sm 48em 46rem, md 62em 61rem, lg 75em 71rem;
+$gutter-width: 2rem;
+
+
+// Typography
+
+$base-font-family: "freight-sans-pro", "Freight Sans Pro", sans-serif;
+$base-font-size: 19px;
+$base-line-height: 1.4 * $base-font-size;
+
+
+// Spacing
+
+$space-layout-base: 4px;
+$space-layout-xxs: $space-layout-base;
+$space-layout-xs: $space-layout-xxs * 2; // 8px
+$space-layout-sm: $space-layout-xs * 2;  // 16px
+$space-layout-md: $space-layout-sm * 2;  // 32px
+$space-layout-lg: $space-layout-md * 2;  // 64px
+$space-layout-xl: $space-layout-lg * 2;  // 128px
+$space-layout-xxl: $space-layout-xl * 2; // 256px
+
+$space-component-base: 4px;
+$space-component-xxs: $space-component-base;
+$space-component-xs: $space-component-xxs * 2;
+$space-component-sm: $space-component-xs * 2;
+$space-component-md: $space-component-sm * 2;
+$space-component-lg: $space-component-md * 2;
+$space-component-xl: $space-component-lg * 2;
+$space-component-xxl: $space-component-xl * 2;

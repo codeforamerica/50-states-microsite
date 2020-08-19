@@ -1,0 +1,104 @@
+// Charts
+
+.chart {
+  margin-top: $space-layout-md;
+  text-align: left;
+}
+
+.chart__image {
+  overflow: hidden;
+}
+
+.chart__show-more {
+  margin-top: $space-layout-md;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    background-color: $gray;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.chart__show-more .button {
+  margin: 0;
+}
+
+.chart__footnotes {
+  border-top: solid $gray 1px;
+  color: $dark-gray;
+  font-size: 14px;
+  margin-top: $space-layout-sm;
+  padding-top: $space-layout-xs;
+}
+
+.chart__group {
+  margin-bottom: $space-layout-sm;
+}
+
+.chart__group-title {
+  border-top: solid $gray 1px;
+  color: $dark-gray;
+  font-size: 16px;
+  margin-bottom: $space-layout-sm;
+  padding-top: $space-layout-xs;
+  text-align: right;
+}
+
+.chart__row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1px;
+}
+
+.chart__axis {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0 $space-component-xs;
+  text-align: right;
+  width: 10%;
+}
+
+.chart__bar {
+  background-color: $light-gray;
+  font-size: 12px;
+  height: 26px;
+  line-height: 24px;
+  margin-right: 1px;
+  padding: 0 $space-component-xs;
+}
+
+.chart__group#medicaid .chart__bar { background-color: hsl(150,40,80); }
+.chart__group#medicaid_snap .chart__bar { background-color: hsl(170,40,80) ; }
+.chart__group#snap_tanf .chart__bar { background-color: hsl(190,40,80); }
+.chart__group#liheap_medicaid .chart__bar { background-color: hsl(210,40,80); }
+.chart__group#medicaid_snap_tanf .chart__bar { background-color: hsl(230,40,80); }
+.chart__group#medicaid_snap_wic .chart__bar { background-color: hsl(250,40,80); }
+.chart__group#liheap_medicaid_snap .chart__bar { background-color: hsl(270,40,80); }
+.chart__group#medicaid_snap_tanf_wic .chart__bar { background-color: hsl(290,40,80); }
+.chart__group#liheap_medicaid_snap_tanf .chart__bar { background-color: hsl(310,40,80); }
+.chart__group#liheap_medicaid_snap_wic .chart__bar { background-color: hsl(330,40,80); }
+.chart__group#liheap_medicaid_snap_tanf_wic .chart__bar { background-color: hsl(350,40,80); }
+
+.chart__bar-label {
+  @include media($tablet-up) {
+    display: inline;
+  }
+
+  display: none;
+}
+
+.chart__row-total {
+  line-height: 22px;
+  padding: 0 $space-component-xs;
+  width: 20%;
+}

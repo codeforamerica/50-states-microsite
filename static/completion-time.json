@@ -1,0 +1,561 @@
+[
+  {
+    "state": "AL",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 30
+      },
+      { 
+        "programs": ["SNAP"],
+        "minutes": 25
+      }
+    ]
+  },
+  {
+    "state": "AK",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 35
+      }
+    ]
+  },
+  {
+    "state": "AZ",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "AR",
+    "platforms": [
+      { 
+        "programs": ["SNAP","TANF"],
+        "minutes": 35
+      },
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "CA",
+    "footnote": "CalWin",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "CA",
+    "footnote": "C4Yourself",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "CA",
+    "footnote": "YourBenefitsNow",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"], 
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "CO",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 35
+      },
+      { 
+        "programs": ["WIC"],
+        "minutes": 5
+      }
+    ]
+  },
+  {
+    "state": "CT",
+    "footnote": "Estimated due to identity proofing",
+    "platforms": [
+      { 
+        "programs": ["SNAP","TANF"], 
+        "minutes": 65
+      },
+      { 
+        "programs": ["Medicaid"], 
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "DE",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"], 
+        "minutes": 90
+      }
+    ]
+  },
+  {
+    "state": "FL",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 120
+      }
+    ]
+  },
+  {
+    "state": "GA",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"], 
+        "minutes": 60
+      },
+      {
+        "programs": ["WIC"],
+        "minutes": 5
+      }
+    ]
+  },
+  {
+    "state": "HI",
+    "platforms": []
+  },
+  {
+    "state": "ID",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"], 
+        "minutes": 35
+      }
+    ]
+  },
+  {
+    "state": "IL",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"], 
+        "minutes": 40
+      }
+    ]
+  },
+  {
+    "state": "IN",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"], 
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "IA",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"], 
+        "minutes": 30
+      },
+      { 
+        "programs": ["SNAP","TANF"], 
+        "minutes": 20
+      }
+    ]
+  },
+  {
+    "state": "KS",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "KY",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 50
+      }
+    ]
+  },
+  {
+    "state": "LA",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 35
+      },
+      { 
+        "programs": ["SNAP","TANF"],
+        "minutes": 35
+      }
+    ]
+  },
+  {
+    "state": "ME",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "MD",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 35
+      },
+      { 
+        "programs": ["SNAP","TANF","LIHEAP"],
+        "minutes": 35
+      }
+    ]
+  },
+  {
+    "state": "MA",
+    "platforms": [
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 35
+      },
+      { 
+        "programs": ["SNAP"],
+        "minutes": 20
+      },
+      { 
+        "programs": ["WIC"],
+        "minutes": 5
+      }
+    ]
+  },
+  {
+    "state": "MI",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 20
+      }
+    ]
+  },
+  {
+    "state": "MN",
+    "platforms": [
+      { 
+        "programs": ["SNAP","TANF"],
+        "minutes": 60
+      },
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 50
+      }
+    ]
+  },
+  {
+    "state": "MS",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "MO",
+    "platforms": [
+      { 
+        "programs": ["SNAP","TANF"],
+        "minutes": 40
+      },
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 20
+      }
+    ]
+  },
+  {
+    "state": "MT",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "NE",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 40
+      }
+    ]
+  },
+  {
+    "state": "NV",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 25
+      }
+    ]
+  },
+  {
+    "state": "NH",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "NJ",
+    "platforms": [
+      { 
+        "programs": ["SNAP","TANF"],
+        "minutes": 45
+      },
+      { 
+        "programs": ["Medicaid"],
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "state": "NM",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "NY",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP","LIHEAP"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "NC",
+    "platforms": [
+      { 
+        "programs": ["Medicaid","SNAP"],
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "state": "ND",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 45
+      }
+    ]
+  },
+  {
+    "state": "OH",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "OK",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "OR",
+    "platforms": [
+      {
+        "programs": ["Medicaid"],
+        "minutes": 50
+      },
+      {
+        "programs": ["SNAP","TANF"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "PA",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 20
+      },
+      {
+        "programs": ["WIC"],
+        "minutes": 5
+      }
+    ]
+  },
+  {
+    "state": "RI",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "SC",
+    "platforms": [
+      {
+        "programs": ["Medicaid"],
+        "minutes": 30
+      },
+      {
+        "programs": ["SNAP","TANF"],
+        "minutes": 30
+      }
+    ]
+  },
+  {
+    "state": "SD",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP"],
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "state": "TN",
+    "platforms": [
+      {
+        "programs": ["Medicaid"],
+        "minutes": 30
+      },
+      {
+        "programs": ["SNAP","TANF"],
+        "minutes": 20
+      }
+    ]
+  },
+  {
+    "state": "TX",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 60
+      },
+      {
+        "programs": ["WIC"],
+        "minutes": 5
+      }
+    ]
+  },
+  {
+    "state": "UT",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF"],
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "VT",
+    "platforms": [
+      {
+        "programs": ["SNAP","TANF","LIHEAP"],
+        "minutes": 40
+      },
+      {
+        "programs": ["Medicaid"],
+        "minutes": 25
+      }
+    ]
+  },
+  {
+    "state": "VA",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","TANF","LIHEAP"],
+        "minutes": 60
+      },
+      {
+        "programs": ["WIC"],
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "state": "WA",
+    "platforms": [
+      {
+        "programs": ["SNAP","TANF"],
+        "minutes": 45
+      },
+      {
+        "programs": ["Medicaid"],
+        "minutes": 20
+      }
+    ]
+  },
+  {
+    "state": "WV",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP","LIHEAP"],
+        "minutes": 50
+      },
+      {
+        "programs": ["WIC"],
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "state": "WI",
+    "platforms": [
+      {
+        "programs": ["Medicaid","SNAP"],
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "state": "WY",
+    "platforms": [
+      {
+        "programs": ["Medicaid"],
+        "minutes": 40
+      },
+      {
+        "programs": ["LIHEAP"],
+        "minutes": 25
+      }
+    ]
+  }
+]

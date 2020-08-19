@@ -1,0 +1,23 @@
+// Stats
+
+.stats {
+  margin-bottom: $space-layout-md;
+  margin-top: $space-layout-md;
+}
+
+.stat {
+  margin-bottom: $space-layout-sm;
+}
+
+.stat__number {
+  box-shadow: 0 10px $yellow, inset 0 -20px $yellow, ;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: $space-component-sm;
+  padding-left: $space-component-sm;
+}
+
+.stat__label {
+  font-size: 24px;
+  padding-left: $space-component-sm;
+}

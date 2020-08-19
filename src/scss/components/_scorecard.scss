@@ -1,0 +1,251 @@
+.scorecard {
+  border: solid $gray 1px;
+  margin-bottom: $space-layout-md;
+  margin-top: $space-layout-lg;
+  position: relative;
+}
+
+.scorecard__header {
+  @include media($tablet-up) {
+    padding-top: $space-component-sm;
+  }
+
+  border-bottom: solid $gray 1px;
+  padding: $space-component-sm;
+  padding-top: $space-component-lg;
+}
+
+.scorecard__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.scorecard__subtitle {
+  color: $dark-gray;
+}
+
+.scorecard__glyph {
+  background-color: $white;
+  height: 100px;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -52px;
+  position: absolute;
+  top: 0;
+  width: 130px;
+}
+
+.scorecard__body {
+  @include media($tablet-up) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  background-color: $light-gray;
+}
+
+.scorecard__panel {
+  @include media($tablet-up) {
+    border-bottom: 0;
+    border-right: solid $gray 1px;
+    flex: 1;
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+
+  border-bottom: solid $gray 1px;
+  padding: $space-component-sm;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.scorecard__controls {
+  @include media($tablet-up) {
+    padding-top: 0;
+    text-align: left;
+  }
+  
+  padding-top: $space-component-sm;
+  text-align: center;
+}
+
+.scorecard__control {
+  cursor: pointer;
+  margin-left: $space-component-xs;
+  margin-right: $space-component-xs;
+
+  circle {
+    fill: $yellow;
+  }
+}
+
+.scorecard__control--disabled {
+  cursor: default;
+
+  circle {
+    fill: $gray;
+  }
+}
+
+
+
+
+// When there's only one panel (i.e. only one program), render the panel slightly differently
+.scorecard__panel:only-child {
+  @include media($tablet-up) {
+    display: flex;
+    flex-direction: row;
+
+    .scorecard__overview,
+    .scorecard__checklist {
+      flex: 1;
+    }
+
+    .scorecard__overview {
+      padding-right: $space-component-md;
+    }
+  }
+}
+
+.scorecard__website-name {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.scorecard__website-program {
+  color: $dark-gray;
+  font-size: 19px;
+}
+
+.scorecard__website-screenshots {
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.scorecard__website-program--unavailable {
+  display: none;
+}
+
+.scorecard__checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-top: solid $gray 1px;
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    margin: 0;
+    padding: $space-component-sm 0;
+  }
+}
+
+.scorecard__checklist-label {
+  flex: 1;
+}
+
+.scorecard__icon::after {
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 1.6em;
+  font-style: normal;
+  text-align: center;
+  width: 1.6em;
+}
+
+.scorecard__icon--yes::after {
+  color: $green;
+  content: "\f00c";
+}
+
+.scorecard__icon--no::after {
+  color: $red;
+  content: "\f00d";
+}
+
+.scorecard__icon--info::after {
+  color: $black;
+  content: "\f059";
+  font-size: 1em;
+}
+
+.scorecard__icon--picture::after {
+  color: $white;
+  content: "\f03e";
+  font-size: 1em;
+}
+
+.scorecard__icon--television::after {
+  color: $white;
+  content:"\f26c";
+  font-size: 1em;
+}
+
+.scorecard__icon--expand::after {
+  color: $white;
+  content:"\f065";
+  font-size: 1em;
+}
+
+.scorecard__stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.scorecard__stat {
+  flex: 1;
+  margin: $space-component-sm 0;
+  text-align: center;
+}
+
+.scorecard__stat-number {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.scorecard__stat-label {
+  font-size: 19px;
+}
+
+.scorecard__footnote {
+  bottom: $space-component-sm;
+  font-size: 14px;
+  font-style: italic;
+  left: $space-component-sm;
+  position: absolute;
+}
+
+.fotorama {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.fotorama__arr, .fotorama__fullscreen-icon {
+  background: url('../../static/fotorama.png') no-repeat !important;
+}
+
+.fotorama__arr--next {
+  right: 2px !important;
+  background-position: -32px 0 !important;
+}
+
+.fotorama__fullscreen-icon {
+  background-position: 0 -32px !important;
+}
+
+.gallery__header {
+  margin-top: $space-layout-md;
+}
+
+.scorecard__disclaimer {
+  font-size: 14px;
+  font-style: italic;  
+}
+
